@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons');
+
+/* Классы контейнеров */
+.mdl-layout.mdl-js-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mdl-layout__content {
+  flex: 1;
+}
+
+.mdl-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.mdl-cell {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 16px;
+}
+
+/* Кнопки */
+.mdl-button {
+  display: inline-block;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.mdl-button:hover {
+  background-color: #303f9f;
+}
+
+.button--colored {
+  background-color: #00bcd4;
+}
+
+.button--colored:hover {
+  background-color: #0097a7;
+}
