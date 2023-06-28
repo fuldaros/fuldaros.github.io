@@ -3,6 +3,17 @@
   <head>
     <meta charset='utf-8'>
     <title>fuldaros home ~/</title>
+    <!-- Добавляем ссылки на стили Material Design Lite и Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- Добавляем ссылку на скрипт Material Design Lite -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Добавление стиля для всего документа -->
+    <style>
+      html, body {
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
   </head>
 
   <body>
@@ -11,7 +22,21 @@
     </header>
 
     <main>
-      <button>Нажми меня</button>
+      <!-- Создание обычной кнопки Material Design -->
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        Кнопка
+      </button>
+
+      <!-- Создание кнопки Material Design с иконкой -->
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        <i class="material-icons">face</i>
+        Кнопка
+      </button>
+
+      <!-- Создание заблокированной кнопки Material Design -->
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" disabled>
+        Кнопка
+      </button>
 
       <hr>
 
@@ -24,6 +49,9 @@
 
     <footer>
       <small>®fuldaros 2018</small>
+      <!-- Добавление ссылки на репозиторий на GitHub -->
+      <br>
+      <a href="https://github.com/fuldaros/fuldaros.github.io">Мой репозиторий на GitHub</a>
     </footer>
   </body>
 </html>
